@@ -7,9 +7,10 @@
         </tr>
     </thead>
     <tbody>
+        
         <?php require_once 'model/connection.php'; //подключение к бд
 
-        $db = new Database(); //подкл
+        $db = new Database(); //подключение
 
         $calendar = $db->query("SELECT * FROM `events`");  //выбрать всё из таблицы blog
 
@@ -25,7 +26,3 @@
         ?>
     </tbody>
 </table>
-
-
-
-
