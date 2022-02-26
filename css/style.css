@@ -139,8 +139,6 @@ button:active {
   box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
   transform: translateY(0);
 }
-
-
 .link a {
     font-size: 20px;
     text-decoration:none;
@@ -345,4 +343,3 @@ text-align: right;
 .change_button{
     margin-right: 26px;
 }
- 
